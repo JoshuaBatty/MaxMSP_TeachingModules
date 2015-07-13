@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 77.0, 99.0, 701.0, 192.0 ],
+		"rect" : [ 64.0, 515.0, 701.0, 192.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -156,7 +156,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 547.5, 532.0, 49.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 314.0, 17.0, 44.0, 22.0 ],
+					"presentation_rect" : [ 318.0, 17.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "Yaw",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -190,7 +190,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 440.5, 532.0, 48.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 250.25, 17.0, 44.0, 22.0 ],
+					"presentation_rect" : [ 256.25, 17.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "Roll",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
