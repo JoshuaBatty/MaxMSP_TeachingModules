@@ -52,7 +52,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 706.0, 108.0, 640.0, 480.0 ],
+						"rect" : [ 927.0, 84.0, 719.0, 837.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -88,9 +88,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 588.0, 690.0, 110.0, 23.0 ],
+									"patching_rect" : [ 588.0, 690.0, 94.0, 23.0 ],
 									"style" : "",
-									"text" : "print 6 @popup 1"
+									"text" : "s FM_Release"
 								}
 
 							}
@@ -194,9 +194,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 538.166748, 652.0, 110.0, 23.0 ],
+									"patching_rect" : [ 538.166748, 652.0, 83.0, 23.0 ],
 									"style" : "",
-									"text" : "print 5 @popup 1"
+									"text" : "s FM_Attack"
 								}
 
 							}
@@ -209,9 +209,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 488.333374, 613.0, 110.0, 23.0 ],
+									"patching_rect" : [ 488.333374, 613.0, 141.0, 23.0 ],
 									"style" : "",
-									"text" : "print 4 @popup 1"
+									"text" : "s FM_FilterResonance"
 								}
 
 							}
@@ -280,7 +280,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 438.5, 573.0, 110.0, 23.0 ],
 									"style" : "",
-									"text" : "print 3 @popup 1"
+									"text" : "s FM_FilterCutoff"
 								}
 
 							}
@@ -293,9 +293,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 388.666687, 532.0, 110.0, 23.0 ],
+									"patching_rect" : [ 388.666687, 532.0, 104.0, 23.0 ],
 									"style" : "",
-									"text" : "print 2 @popup 1"
+									"text" : "s FM_ModIndex"
 								}
 
 							}
@@ -308,9 +308,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 338.833374, 492.0, 110.0, 23.0 ],
+									"patching_rect" : [ 338.833374, 492.0, 109.0, 23.0 ],
 									"style" : "",
-									"text" : "print 1 @popup 1"
+									"text" : "s FM_ModRatio2"
 								}
 
 							}
@@ -323,9 +323,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 289.0, 453.0, 110.0, 23.0 ],
+									"patching_rect" : [ 289.0, 453.0, 142.0, 23.0 ],
 									"style" : "",
-									"text" : "print 0 @popup 1"
+									"text" : "s FM_ModRatioMaster"
 								}
 
 							}
@@ -766,28 +766,13 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 438.5, 573.0, 110.0, 23.0 ],
-									"style" : "",
-									"text" : "print 3 @popup 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
 									"id" : "obj-48",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 388.666687, 532.0, 110.0, 23.0 ],
+									"patching_rect" : [ 388.666687, 532.0, 130.0, 23.0 ],
 									"style" : "",
-									"text" : "print 2 @popup 1"
+									"text" : "s Phase_SetPosition"
 								}
 
 							}
@@ -800,9 +785,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 338.833374, 492.0, 110.0, 23.0 ],
+									"patching_rect" : [ 338.833374, 492.0, 94.0, 23.0 ],
 									"style" : "",
-									"text" : "print 1 @popup 1"
+									"text" : "s Phase_Pitch"
 								}
 
 							}
@@ -815,9 +800,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 289.0, 453.0, 110.0, 23.0 ],
+									"patching_rect" : [ 289.0, 453.0, 102.0, 23.0 ],
 									"style" : "",
-									"text" : "print 0 @popup 1"
+									"text" : "s Phase_Speed"
 								}
 
 							}
@@ -883,15 +868,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-30", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-26", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-39", 3 ]
 								}
 
 							}
@@ -1081,6 +1057,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -2315,7 +2292,7 @@
 					"patching_rect" : [ 599.666687, 31.0, 142.0, 50.0 ],
 					"size" : 3,
 					"style" : "",
-					"value" : 0
+					"value" : 2
 				}
 
 			}
@@ -2806,7 +2783,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"items" : [ "None", ",", "Speed", ",", "Pitch", ",", "Grainsize", ",", "GrainShape", ",", "RandomPosition", ",", "RandomPitch" ],
+					"items" : [ "None", ",", "ModRatioMaster", ",", "ModRatio2", ",", "ModIndex", ",", "FilterCutoff", ",", "FilterResonance", ",", "Attack", ",", "Release" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2823,7 +2800,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
-					"items" : [ "None", ",", "Speed", ",", "Pitch", ",", "Grainsize", ",", "GrainShape", ",", "RandomPosition", ",", "RandomPitch" ],
+					"items" : [ "None", ",", "ModRatioMaster", ",", "ModRatio2", ",", "ModIndex", ",", "FilterCutoff", ",", "FilterResonance", ",", "Attack", ",", "Release" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4088,7 +4065,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
-					"items" : [ "None", ",", "Speed", ",", "Pitch", ",", "Grainsize", ",", "GrainShape", ",", "RandomPosition", ",", "RandomPitch" ],
+					"items" : [ "None", ",", "ModRatioMaster", ",", "ModRatio2", ",", "ModIndex", ",", "FilterCutoff", ",", "FilterResonance", ",", "Attack", ",", "Release" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
