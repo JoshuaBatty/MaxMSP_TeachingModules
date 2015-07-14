@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 64.0, 515.0, 701.0, 192.0 ],
+		"rect" : [ 117.0, 814.0, 701.0, 192.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -85,7 +85,6 @@
 					"presentation_rect" : [ 483.5, 16.0, 84.0, 22.0 ],
 					"style" : "",
 					"text" : "MAPPINGS",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2591,7 +2590,7 @@
 					"presentation_rect" : [ 21.666687, 60.0, 142.0, 68.0 ],
 					"size" : 3,
 					"style" : "",
-					"value" : 2
+					"value" : 0
 				}
 
 			}
@@ -3145,7 +3144,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"items" : [ "None", ",", "ModRatioMaster", ",", "ModRatio2", ",", "ModIndex", ",", "FilterCutoff", ",", "FilterResonance", ",", "Attack", ",", "Release" ],
+					"items" : [ "None", ",", "Speed", ",", "Pitch", ",", "Grainsize", ",", "GrainShape", ",", "RandomPosition", ",", "RandomPitch" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3161,7 +3160,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"items" : [ "None", ",", "ModRatioMaster", ",", "ModRatio2", ",", "ModIndex", ",", "FilterCutoff", ",", "FilterResonance", ",", "Attack", ",", "Release" ],
+					"items" : [ "None", ",", "Speed", ",", "Pitch", ",", "Grainsize", ",", "GrainShape", ",", "RandomPosition", ",", "RandomPitch" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3292,7 +3291,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 157.5, 313.0, 82.0, 22.0 ],
 									"style" : "",
-									"text" : "0 -1 1"
+									"text" : "2 -1 1"
 								}
 
 							}
@@ -3305,7 +3304,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.75, 313.0, 82.0, 22.0 ],
 									"style" : "",
-									"text" : "0 -1 1"
+									"text" : "2 -1 1"
 								}
 
 							}
@@ -4023,7 +4022,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 1039.0, 759.0 ],
+						"rect" : [ 544.0, 328.0, 1039.0, 759.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4124,7 +4123,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 157.5, 313.0, 82.0, 22.0 ],
 									"style" : "",
-									"text" : "-1 -1 1"
+									"text" : "1 2 1"
 								}
 
 							}
@@ -4137,7 +4136,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.75, 313.0, 82.0, 22.0 ],
 									"style" : "",
-									"text" : "-1 -1 1"
+									"text" : "1 2 1"
 								}
 
 							}
@@ -4425,7 +4424,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"items" : [ "None", ",", "ModRatioMaster", ",", "ModRatio2", ",", "ModIndex", ",", "FilterCutoff", ",", "FilterResonance", ",", "Attack", ",", "Release" ],
+					"items" : [ "None", ",", "Speed", ",", "Pitch", ",", "Grainsize", ",", "GrainShape", ",", "RandomPosition", ",", "RandomPitch" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
